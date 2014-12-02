@@ -1,33 +1,29 @@
-#container00{
-    font-family: Roya;tahama;
-    font-size: 14px;
-    direction: rtl;
-    margin:5px;
-    width: 95%;
-    background-color:#aaa;
-    padding: 5px;
-    background-image: url(../img/3.jpg);
-    float:left;
+.header{
+    background-color:rgb(44,44,44);
+    height: 80px;
 }
-header .r{
+.header img{
     float: right;
 }
-
-.di{
-    font-family: Roya;tahama;
-    margin-left: 50px;
-    text-align: left;
-    direction: ltr;
-     border-radius: 15px;
-}
-
-#s1{
-    font-family: Roya;tahama;
-    background-color: rgb(44,44,44);
-    direction:rtl;
-    height: 70px;
+.header ul li{
+    display: inline;
     list-style: none;
-    
+    direction: rtl;
+    float: right;
+    font-size: 13px;
+    font-family: "BYekan",tahoma,Arial,sans-serif;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+.vrod{
+    background-color: green;
+    color: rgb(255,255,255);
+    margin-top: 30px;
+    margin-left: 70px;
 }
 .img{
    width: 100%;
@@ -71,14 +67,56 @@ ol li{
     margin: 30px;
     float: right;
 }
-ul li{
-    list-style: none;
-    display: inline;
-    text-decoration: none;
-    margin-right: 89px;
-    height: 0px
-    font-size: 13px;
+.english{
+    background-color: #BFD6CB
+}
+.en1{
+    float: right;
+    width: 50%;
+    background-color: #BFD6CB
+}
+.en1 h2{
+    direction: rtl;
+    margin-right: 40px;
+    font-size: 26px;
     font-family: "BYekan",tahoma,verdana,sans-serif;
+}
+.en1 p{
+    direction: rtl;
+    margin-right: 40px;
+    font-size: 16px;
+    font-family: "BYekan",tahoma,Arial,sans-serif;
+}
+.en1 ul li{
+    direction: rtl;
+    margin-right: 40px;
+    font-size: 16px;
+    font-family: "BYekan",tahoma,Arial,sans-serif;
+}
+.en1 ul li a{
+    text-decoration: none
+}
+.en2 h2{
+    margin-left: 450px;
+    font-family: "BYekan",tahoma,verdana,sans-serif;
+    font-size: 20px;
+}
+.en2{
+    float: left;
+    width: 50%;
+    background-color: #BFD6CB
+}
+.jss{
+    text-align: center;
+    background-color: green;
+    height: 150px;
+}
+.jss h2{
+    color: rgb(255,255,255);
+    font-size: 30px;
+    font-family: BYekan;
+    font-weight: normal;
+    margin-bottom: 45px;
 }
 #nav2 ul li{
     list-style: none;
@@ -363,17 +401,6 @@ ul li{
     background-color: rgb(191,214,203);
 }
 
-
-.gol{
-   
-    background-color: rgb(191, 214, 203);
-   
-}
-.gh1{
-    text-align: right;
-    font-family: Roya;tahama;
-     margin: 50px;
-}
 .circle{
     border: 5px;
     background-color: #ddd;
