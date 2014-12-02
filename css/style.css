@@ -1,6 +1,7 @@
 .header{
     background-color:rgb(44,44,44);
     height: 80px;
+	display:inline;
 }
 .header img{
     float: right;
